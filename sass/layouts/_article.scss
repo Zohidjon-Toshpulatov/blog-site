@@ -1,0 +1,60 @@
+.article-section {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.article {
+  display: flex;
+  margin: 4rem 0;
+  line-height: 1.7;
+
+  &__img--container {
+    margin-right: 3rem;
+  }
+
+  &__img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 3px;
+  }
+
+  &__heading {
+    color: #292929;
+    font-size: 2.7rem;
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  &__date {
+    color: #8f8f8f;
+    font-size: 1.3rem;
+
+    &--date,
+    &--time {
+      padding-right: 0.5rem;
+    }
+
+    &--comment a{
+        text-decoration: none;
+        color: inherit;
+
+        &:hover{
+            text-decoration: underline;
+            color: #524f4f;
+        }
+    }
+  }
+
+  &__btn{
+      color: $color-primary;
+      text-decoration: none;
+      font-size: 1.3rem;
+
+      &:hover{
+          text-decoration: underline;
+      }
+  }
+}

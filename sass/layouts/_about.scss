@@ -1,0 +1,89 @@
+.about{
+    width: 65%;
+    margin: auto;
+    padding: 4rem 0;
+
+    &__heading-primary{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        color: #292929;
+    }
+    &__heading-secondary{
+        font-size: 2.2rem;
+        margin-bottom: 2.5rem;
+        color: #292929;
+    }
+    &__paragraph{
+        font-size: 1.8rem;
+        margin-bottom: 2.5rem;
+        color: rgb(77, 74, 74);
+    }
+    &__photo{
+        width: 100%;
+        &:not(:last-child){
+            margin-bottom: 4rem;
+        }
+    }
+
+    &__unordered-list,
+    &__ordered-list{
+        margin-left: 4rem;
+        margin-bottom: 4rem;
+        font-size: 1.8rem;
+        color: rgb(77, 74, 74);
+        
+        & li {
+            margin: 1.5rem 0;
+        }
+    }
+
+    &__quote{
+        width: 80%;
+        margin:5%;
+        padding: 3rem;
+        border-left: 2px solid black;
+        line-height: 1.6;
+
+
+        &--text{
+            font-size: 2.5rem;
+            color: rgba(0,0,0, 0.7);
+        }
+
+        &--author{
+            font-size: 2rem;
+            color: rgba(0,0,0, 0.5);   
+        }
+
+    }
+    
+    &__table{
+        width: 100%;
+        margin: 3rem 0;
+        border-collapse: collapse;
+
+
+        & tr:nth-child(odd){
+            background-color: rgba(0,0,0,0.05);
+        }
+        & tr:hover {
+            background-color: #ddd;
+        }
+
+        & th{
+            background-color: $color-primary;
+            color: $color-white;
+            border-bottom: 2px solid #a9a8a8 ;
+        }
+
+        & td{
+            width: 27%;
+        }
+
+        & th, td{
+            text-align: left;
+            padding: 1rem;
+            border-top: 1px solid #a9a8a8;
+        }
+    }
+}

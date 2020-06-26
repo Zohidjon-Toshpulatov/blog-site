@@ -1,0 +1,45 @@
+.side-nav {
+  color: $color-white;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  &__item {
+    padding-left: 6rem;
+  }
+
+  &__link:link,
+  :visited {
+    color: $color-white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
+  &__link--active {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+  &__link:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  &__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.7rem;
+    fill: currentColor;
+  }
+
+  &__button {
+    margin: 1rem 0;
+    margin-left: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+  }
+}

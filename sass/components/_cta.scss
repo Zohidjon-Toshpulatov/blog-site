@@ -1,0 +1,51 @@
+.cta {
+  max-width: 100%;
+  width: max-width;
+  text-align: center;
+  padding: 7rem 0;
+  background-color: #fafafa;
+  font-size: 1.6rem;
+
+  &__heading-primary {
+    color: #292929;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  &__form--input {
+    width: 35rem;
+    height: 4.5rem;
+    padding: 1rem;
+    border: 1px solid darkgray;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+  }
+
+  &__form--btn {
+    background-color: $color-primary;
+
+    &:hover {
+      background-color: #42c257;
+    }
+
+    &:focus {
+      outline: none;
+      border: 1px solid transparent;
+    }
+  }
+}
+
+.promo {
+  max-width: 65%;
+  margin: 0 auto;
+
+  &__text {
+    font-size: 1.6rem;
+    color: rgb(110, 108, 108);
+    font-weight: 300;
+    margin: 1.5rem 0;
+  }
+}

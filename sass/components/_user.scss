@@ -1,0 +1,40 @@
+.user {
+  margin-top: 1rem;
+  padding: 2rem;
+
+  &__name {
+    padding-bottom: 2rem;
+  }
+
+  &__photo {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+  }
+
+  &__about {
+    padding: 2rem 0;
+    line-height: 1.5;
+  }
+
+  &__line-border {
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  margin-bottom: 1.6rem;
+
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.7rem;
+    border-radius: 50%;
+    fill: $color-primary;
+    background-color: $color-white;
+  }
+}
